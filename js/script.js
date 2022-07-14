@@ -4,5 +4,5 @@ let resultado = document.querySelector('.resultado');
 
 function hipot() {
     let hipotenusa = Math.hypot(catetoOposto.value, catetoAdjacente.value)
-    resultado.innerHTML = `Hipotenusa = ${hipotenusa}`
+    resultado.innerHTML = `O valor da Hipotenusa é ${hipotenusa}`
 }

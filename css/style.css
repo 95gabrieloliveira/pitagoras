@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: lightblue;
+        color: black
+        }
+        
+        main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        }
+
+        .container {
+
+            max-width: 800px;
+            padding: 50px;
+            text-align: center;
+            
+            display: flex;
+    
+            
+            }
+
+            
+    .valores {
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .valores input {
+            width: 250px;
+            height: 30px;
+            }
+        
+button {
+    height: 50px;
+    width: 300px;
+    padding: 10px 12px;
+}
+
+.resultado {
+    margin: 2 5 10 1 px;
+    color: black;
+    
+}
